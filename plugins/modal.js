@@ -30,6 +30,7 @@ function _createModal(options){
  * content: string  (format html dinamic content)
  * width: string ('400px')
  * destroy(){}: void
+ * 
  * close modal window when press on overlay or cross
  * -------------------------
  *public method for instanse setContent(html: string): void 
@@ -41,7 +42,7 @@ function _createModal(options){
  *---------------
  *Animate Css animate.css
  *use library animate.css
- */
+
 
 $.modal  = function (options) {
     const ANIMATION_SPEED = 200
